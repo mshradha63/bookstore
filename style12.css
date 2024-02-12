@@ -1,0 +1,134 @@
+*{
+  margin:0;
+  padding:0;
+
+  
+
+}
+.navbar-border{
+
+  background-image: url(corner_design.jpg);
+  opacity: .6;
+  height: 100px;
+  overflow: hidden;
+}
+.coupan:hover{
+text-decoration: underline;
+
+cursor: pointer;
+
+}
+.items{
+  display:flex;
+  font-size: 1rem;
+  color: black;
+  margin-left: 15px;
+  padding-top: 15px;
+  
+  text-decoration: none;
+}
+.item1 ul{
+display: flex;
+
+}
+.items ul li{
+  display: flex;
+  margin: 10px;
+  color: black;
+}
+.items ul li:hover{
+  text-decoration: underline; 
+  width:fit-content;
+  color: black;
+  padding-top: 1px;
+
+}
+.panel7{
+  width: 100%;
+  height: 1px;
+  background-color: gainsboro;
+  margin-top: -5px;
+}
+.panel8{
+  width: 100%;
+  height: 1px;
+  background-color: gainsboro;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+.panel9{
+  width: 100%;
+  height: 1px;
+  background-color: gainsboro;
+  margin-top: 5px; 
+}
+.str:hover{
+    transform: scale(1.02);
+  z-index:-1;
+  cursor: pointer;
+}
+.str1:hover{
+    transform: scale(1.02);
+  z-index:-1;
+  cursor: pointer;
+}
+str2:hover{
+    transform: scale(1.02);
+  z-index:-1;
+  cursor: pointer;
+}
+.str3:hover{
+    transform: scale(1.02);
+  z-index:-1;
+  cursor: pointer;
+}
+.str4:hover{
+    transform: scale(1.02);
+  z-index:-1;
+  cursor: pointer;
+}
+.str5:hover{
+    transform: scale(1.02);
+  z-index:-1;
+  cursor: pointer;
+}
+.str6:hover{
+    transform: scale(1.02);
+  z-index:-1;
+  cursor: pointer;
+}
+.str7:hover{
+    transform: scale(1.02);
+  z-index:-1;
+  cursor: pointer;
+}
+.str8:hover{
+    transform: scale(1.02);
+  z-index:-1;
+  cursor: pointer;
+}
+.str9:hover{
+    transform: scale(1.02);
+  z-index:-1;
+  cursor: pointer;
+}
+.str10:hover{
+    transform: scale(1.02);
+  z-index:-1;
+  cursor: pointer;
+}
+.str11:hover{
+    transform: scale(1.02);
+  z-index:-1;
+  cursor: pointer;
+}
+
+
+
+.str-content1:hover{
+}
+.colums{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}

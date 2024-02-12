@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding: 0;;
+}
+
+
+
+
+.bulk{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5rem;
+    margin-left: 300px;
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 0.637);
+}
+.navbar-border{
+
+    background-image: url(corner_design.jpg);
+    opacity: .6;
+    height: 100px;
+    overflow: hidden;
+  }
+.coupan:hover{
+  text-decoration: underline;
+  cursor: pointer;
+
+}
+.items{
+    display:flex;
+    font-size: 1rem;
+    color: black;
+    margin-left: 15px;
+    padding-top: 15px;
+    
+    text-decoration: none;
+}
+.item1 ul{
+display: flex;
+
+}
+.items ul li{
+    display: flex;
+    margin: 10px;
+    color: black;
+}
+.items ul li:hover{
+    text-decoration: underline; 
+    width:fit-content;
+    color: black;
+    padding-top: 1px;
+
+}
+.panel7{
+    width: 100%;
+    height: 1px;
+    background-color: gainsboro;
+    margin-top: -5px;
+}
+.panel8{
+    width: 100%;
+    height: 1px;
+    background-color: gainsboro;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.panel9{
+    width: 100%;
+    height: 1px;
+    background-color: gainsboro;
+    margin-top: 5px; 
+}
+.text{
+    height: 40px;
+    margin-left: 293px;
+    width: 360px;
+    margin-top: 50px;
+    left: calc(var(---inputs-border-width));
+    font-size: .90rem;
+    border: 1px solid gray;
+    letter-spacing: .1rem;
+}
+.text:hover{
+    border: 2px solid rgb(116, 110, 110);
+}
+.email{
+    height: 40px;
+    margin-left: 30px;
+    width: 450px;
+    margin-top: 50px;
+    left: calc(var(---inputs-border-width));
+    font-size: .90rem;
+    border: 1px solid gray;
+    letter-spacing: .1rem;
+}
+.email:hover{
+    border: 2px solid rgb(116, 110, 110);
+}
+.number{
+    height: 70px;
+    margin-left: 300px;
+    width: 850px;
+    margin-top: 20px;
+    left: calc(var(---inputs-border-width));
+    font-size: .90rem;
+    border: 1px solid gray;
+    letter-spacing: .1rem;
+}
+.number:hover{
+    border: 2px solid rgb(116, 110, 110);
+}
+.comment{
+    height: 90px;
+    margin-left: 300px;
+    width: 850px;
+    margin-top: 20px;
+    letter-spacing: .1rem;
+    font-size: .90rem;
+    border: 1px solid gray;
+}
+.comment:hover{
+    border: 2px solid rgb(116, 110, 110);
+}
+.send{
+    font-family: .90rem;
+    color:white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:300px ;
+    margin-top: 40px;
+    width: 40px;
+    padding:5px 5px 10px 35px;   
+     text-decoration: none;
+    border-radius: 4px;
+    box-shadow:3px 5px 3px 5px rgba(220, 220, 220, 0.192);
+    
+}
+.send:hover{
+    border: 1px solid black;
+}

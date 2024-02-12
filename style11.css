@@ -1,0 +1,259 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+    
+
+}
+.navbar-border{
+
+    background-image: url(corner_design.jpg);
+    opacity: .6;
+    height: 100px;
+    overflow: hidden;
+  }
+.coupan:hover{
+  text-decoration: underline;
+
+  cursor: pointer;
+
+}
+.items{
+    display:flex;
+    font-size: 1rem;
+    color: black;
+    margin-left: 15px;
+    padding-top: 15px;
+    
+    text-decoration: none;
+}
+.item1 ul{
+display: flex;
+
+}
+.items ul li{
+    display: flex;
+    margin: 10px;
+    color: black;
+}
+.items ul li:hover{
+    text-decoration: underline; 
+    width:fit-content;
+    color: black;
+    padding-top: 1px;
+
+}
+.panel7{
+    width: 100%;
+    height: 1px;
+    background-color: gainsboro;
+    margin-top: -5px;
+}
+.panel8{
+    width: 100%;
+    height: 1px;
+    background-color: gainsboro;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 400px;
+  position:relative;
+  margin-top: 10px;
+}
+
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+
+
+}
+.panel9{
+    width: 100%;
+    height: 1px;
+    background-color: gainsboro;
+    margin-top: 5px; 
+}
+
+.panel10{
+    width: 100%;
+    height: 1px;
+    background-color: gainsboro;
+    margin-top: 15px;  
+}
+.panel11 a:hover{
+  color: rgb(167, 1, 98) !important;
+cursor: pointer;
+ /* border-bottom: 2px solid maroon; */
+ background-color: white;
+
+}
+.container_image{
+  height:400px;
+  width: 100%;
+  display: flex;
+  margin-bottom: 50px;
+  flex-wrap:wrap;
+  overflow: hidden;
+  
+}
+.box1{
+  height:300px;
+  width:16%;
+  border: 2px solid white;
+  margin-left: 80px;
+  margin-top: 40px;
+  cursor: pointer;
+  margin-right: 6px;
+
+}
+.box1:hover{
+  transform: scale(1.1);
+  z-index:-10;
+  height:300px;
+  width:16%;
+  cursor: pointer;
+
+}
+.box2{
+  height:300px;
+  width:16%;
+  border: 1px solid black;
+  margin-left: 13px;
+  margin-top: 40px;
+  cursor: pointer;
+  margin-right: 6px;
+}
+.box2:hover{
+  transform: scale(1.1);
+  z-index:1;
+  cursor: pointer;
+}
+.box3{
+  height:300px;
+  width:16%;
+  border: 1px solid black;
+  margin-left: 13px;
+  margin-top: 40px;
+  cursor: pointer;
+  margin-right: 6px;
+}
+.box3:hover{
+  transform: scale(1.1);
+  z-index:1;
+  cursor: pointer;
+}
+.box4{
+  height:300px;
+  width:16%;
+  border: 1px solid black;
+  margin-left: 13px;
+  margin-top: 40px;
+  cursor: pointer;
+  margin-right: 6px;
+}
+.box4:hover{
+  transform: scale(1.1);
+  z-index:1;
+  cursor: pointer;
+}
+.box5{
+  height:300px;
+  width:15%;
+  border: 1px solid black;
+  margin-left: 13px;
+  margin-top: 40px;
+  cursor: pointer;
+  margin-right: 6px;
+}
+.box5:hover{
+  transform: scale(1.1);
+  z-index:1;
+  cursor: pointer;
+}
+.view a:hover{
+transform: scale(1.5);
+color: white !important;
+cursor: pointer;
+background-color: rgb(168, 5, 5) !important;
+padding:16px !important
+}
+.winter a:hover{
+  font-size: 2rem;
+  color: black !important
+  }
+  .book{
+    border:1px solid white;
+    object-fit: cover;
+  
+  
+  }
+  .add:hover{
+    font-size:1.3rem;
+    border: 1.5px solid palevioletred;
+  }
+  .wrapper span{
+    width: 200px;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .sidebar{
+    margin-top: -50px;
+  }
+  
+  .sidebar:hover{
+    width:260px;
+  }
+  .sidebar ul{
+    margin-left: 20px;
+    margin-top: 50px;
+    
+  }
+  .sidebar ul a{
+    text-transform: uppercase;
+    list-style: none;
+    text-decoration: none;
+    
+  }
+
+
+ background-image: linear-gradient{
+  90deg,
+  hsl(17deg 96% 46%) 0%,
+  hsl(16deg 85% 53%) 5%,
+  hsl(16deg 88% 59%) 9%,
+  hsl(16deg 92% 64%) 14%,
+  hsl(16deg 95% 69%) 18%,
+  hsl(16deg 99% 73%) 23%,
+  hsl(17deg 100% 78%) 27%,
+  hsl(17deg 100% 82%) 32%,
+  hsl(17deg 100% 86%) 36%,
+  hsl(17deg 100% 90%) 41%,
+  hsl(16deg 99% 95%) 45%,
+  hsl(0deg 0% 98%) 50%,
+  hsl(106deg 37% 93%) 55%,
+  hsl(107deg 41% 88%) 59%,
+  hsl(107deg 43% 83%) 64%,
+  hsl(108deg 43% 77%) 68%,
+  hsl(109deg 44% 72%) 73%,
+  hsl(110deg 44% 67%) 77%,
+  hsl(111deg 44% 62%) 82%,
+  hsl(112deg 44% 56%) 86%,
+  hsl(114deg 44% 51%) 91%,
+  hsl(117deg 53% 45%) 95%,
+  hsl(125deg 83% 36%) 100%
+ }
+  
